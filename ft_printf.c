@@ -6,7 +6,7 @@
 /*   By: cpoza-ra <cpoza-ra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/16 16:54:21 by cpoza-ra          #+#    #+#             */
-/*   Updated: 2025/02/27 15:32:58 by cpoza-ra         ###   ########.fr       */
+/*   Updated: 2025/03/04 19:49:38 by cpoza-ra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,11 +37,11 @@ int	ft_printf(char const *str, ...)
 }
 /*int main()
 {
-	int n = -123456;
+	
 	char c = 'a';
 	char *s = NULL;
+	char n = "5462";
 	
-	ft_printf("%c %s %p %i %d %u %x %X", c, s, s, n, n, n, n, n);
-	printf("\n%c %s %p %i %d %u %x %X", c, s, s, n, n, n, n, n);
+	printf("%d\n",ft_printf("%s", p));
 	return(0);
 }*/

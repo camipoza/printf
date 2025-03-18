@@ -6,7 +6,7 @@
 /*   By: cpoza-ra <cpoza-ra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/16 18:27:00 by cpoza-ra          #+#    #+#             */
-/*   Updated: 2025/02/24 15:24:54 by cpoza-ra         ###   ########.fr       */
+/*   Updated: 2025/03/04 19:43:58 by cpoza-ra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,8 @@ int	ft_puthex(size_t x, char str) // %x, %X
 	if (x >= 16)
 		counter2 += ft_puthex(x / 16, str);
 	counter2 += ft_putchar(base[x % 16]);
+	if (counter2 < 0)
+			return (-1);
 	return (counter2);
 }
 
